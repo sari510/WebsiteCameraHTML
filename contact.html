@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miryam Levinshten - Contact</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css.map">
+    <link rel="stylesheet" href="comments.html">
+    <link rel="stylesheet" href="Work1.html">
+    <link rel="stylesheet" href="home.html">
+    <link rel="stylesheet" href="Contact2.html">
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <header class="nav">
+      <a href="home.html"><img src="images/לוגו/logo.png" alt="" class="logo"></a>
+        <ul>
+            <li><a href="home.html">ראשי</a></li>
+            <li><a href="gallary.html">גלריה</a></li>
+            <li><a href="price.html">מחירון</a></li>
+            <li><a href="Comments.html">תגובות</a></li>
+            <li><a class="active" href="Contact.html">צור קשר</a></li>
+        </ul>
+    </header>
+    <nav></nav>
+    <section>
+<!-- <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">ליצירת קשר</button> -->
+
+<!-- <div id="id01" class="modal"> -->
+  <!-- <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span> -->
+  <form class="modal-content" action="Contact2.html">
+    <div class="container1">
+      <h1>אנא מלאו את הפרטים ואחזור אליכם בהקדם!</h1>
+      <hr>
+      <label for="name"><b>שם:</b></label>
+      <input type="text" placeholder="הכנס שם..." name="name" required>
+
+      <label for="phone"><b>פלפון:</b></label>
+      <input type="tel" placeholder="הכנס מספר פלפון..." name="phone" required>
+
+      <label for="email"><b>אימייל:</b></label>
+      <input type="text" placeholder="הכנס את כתובת מייל..." name="email" required>
+
+      <tr>
+        <td><label for="type"><b>בחרי את סוג הצילומים:</b></label></td><br>
+        <td>
+            <input type="checkbox" name="type" id="type"><span> צילומי ניו בורן</span><br>
+            <input type="checkbox" name="type" id="type"><span> צילומי סמאש קייק</span><br>
+            <input type="checkbox" name="type" id="type"><span> צילומי חלאקה</span><br>
+            <input type="checkbox" name="type" id="type"><span> צילומים משפחתיים</span><br>
+            <input type="checkbox" name="type" id="type"><span> צילומי סטודיו</span><br>
+        </td>
+       </tr>
+       <br>
+       <label for="yes"><b>האם אהבת את האתר ?</b></label>
+    <input type="checkbox" id="yes">
+      <h1></h1>
+
+      <div class="clearfix">
+        <button type="reset" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">לאפס פרטים</button>
+        <button type="submit" class="signupbtn">שלח פרטים</button>
+      </div>
+    </div>
+  </form>
+</div>
+    </section>
+    <footer class="footer">
+      <h3 class="footer text">מרים לווינשטיין- צלמת מקצועית</h3>
+      <h4 class="footer text">לפרטים והזמנות: 058-322-0101</h4>
+      <a class="footerCon" href="contact.html">ליצירת קשר לחץ כאן</a>
+    </footer>
+</body>
+</html>
